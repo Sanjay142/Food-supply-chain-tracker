@@ -1,0 +1,16 @@
+{
+  "name": "hardhat-project",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run scripts/deploy.js --network hardhat",
+    "node": "npx hardhat node"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "dotenv": "^17.2.2",
+    "ethers": "^6.0.0",
+    "hardhat": "^2.18.0"
+  }
+}
